@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Main Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">Portfolio.</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Wrapper -->
+    <main>
+        <!-- Hero / Welcome Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1>Hi, I'm a Rayan Nibir.</h1>
+                <p>Welcome to my portfolio website. We are currently under development.</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about-section">
+            <div class="about-container">
+                <div class="about-bio">
+                    <h2>About Me</h2>
+                    <p>I am a student completing my computer science degree this summer. I'm passionate about building software and solving problems through code. My academic journey has given me a strong foundation in computer science principles, and I'm eager to apply my skills to real-world projects.</p>
+                </div>
+                <div class="about-skills">
+                    <h3>Skills</h3>
+                    <ul class="skills-list">
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>Systems-level Programming</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>System Resource Analyzer</h3>
+                    <p>A program that analyzes resource system usage and generates reports on applications being used and resource consumption. Built for efficient system administration tasks tracking.</p>
+                    <ul class="project-tech">
+                        <li>Python</li>
+                        <li>Systems Programming</li>
+                    </ul>
+                    <a href="#" class="btn project-btn">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3>Web Task Manager</h3>
+                    <p>A responsive web application for managing daily tasks with a modern UI. MAde for keeping track of class assignments..</p>
+                    <ul class="project-tech">
+                        <li>JavaScript</li>
+                        <li>HTML/CSS</li>
+                    </ul>
+                    <a href="#" class="btn project-btn">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3>Network Packet Sniffer</h3>
+                    <p>A low-level network monitoring tool that captures and analyzes TCP/IP packets in real-time. Designed for network security research and debugging.</p>
+                    <ul class="project-tech">
+                        <li>Python</li>
+                        <li>Socket Programming</li>
+                    </ul>
+                    <a href="#" class="btn project-btn">View on GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Portfolio. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="https://github.com/RN730" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/rayan-nibir-3656b4275" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
