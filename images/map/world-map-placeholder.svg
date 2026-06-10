@@ -1,0 +1,5 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#0a1628"/>
+  <text x="400" y="250" font-family="Arial" font-size="24" fill="#008080" text-anchor="middle">Acheronia World Map</text>
+  <text x="400" y="290" font-family="Arial" font-size="16" fill="#c8c8c8" text-anchor="middle">Placeholder Image</text>
+</svg>
