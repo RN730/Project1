@@ -27,8 +27,8 @@
     --text-primary: #1a1a1a;
     --text-secondary: #333333;
     --text-muted: #555555;
-    --accent-primary: linear-gradient(135deg, #87ceeb 0%, #add8e6 50%, #87ceeb 100%);
-    --accent-secondary: #87ceeb;
+    --accent-primary: linear-gradient(135deg, #4682b4 0%, #5f9ea0 50%, #4682b4 100%);
+    --accent-secondary: #4682b4;
     --gold: linear-gradient(135deg, #c0c0c0 0%, #e8e8e8 50%, #c0c0c0 100%);
     --gold-dark: #a0a0a0;
     --border-color: #a0a0a0;
@@ -569,6 +569,21 @@ body {
     height: auto;
     object-fit: cover;
     border-bottom: 2px solid var(--gold-dark);
+}
+
+/* Character image height adjustments */
+.character-card:nth-child(1) .character-image,
+.character-card:nth-child(4) .character-image {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.character-card:nth-child(2) .character-image,
+.character-card:nth-child(3) .character-image {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .character-info {
